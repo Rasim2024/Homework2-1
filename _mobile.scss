@@ -1,0 +1,51 @@
+@media (max-width:767px) {
+
+    .top {
+        background: url(img/topmob.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        &__welcome {
+            display: flex;
+            width: 349px;
+            font-size: 32px;
+            line-height: normal;
+            text-align: center;
+            justify-content: center;
+        }
+
+        &__text {
+            text-align: center;
+
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            width: 300px;
+
+
+            &_bold {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .game__selection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .center {
+        padding-left: max(16px, calc(50% - 343px/2));
+        padding-right: max(16px, calc(50% - 343px/2));
+    }
+}
