@@ -122,6 +122,7 @@ const circle2 = {
 
 function getSeason() {
     let month=Number(prompt(`Ведите номер месяца`))
+    
     if (month>=3 && month<=5) {
         return `Весна`
                
@@ -141,3 +142,4 @@ function getSeason() {
     }
     
 }
+console.log(getSeason());
