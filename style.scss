@@ -22,7 +22,7 @@ body {
   font-style: normal;
   line-height: 78px;
   padding-top: 217px;
-  
+
   padding-bottom: 32px;
 }
 
@@ -35,14 +35,14 @@ body {
   text-align: left;
   color: #FFF;
 
-  
-  
+
+
   &_bold {
-    
+
     font-size: 18px;
     font-weight: 700;
     line-height: 32px;
-    
+
 
 
   }
@@ -50,7 +50,7 @@ body {
 
 
 .button__box {
-  
+
   padding-bottom: 506px;
 
 }
@@ -84,7 +84,8 @@ body {
   background-size: cover;
   height: 300px;
   width: 100%;
-  &:hover{
+
+  &:hover {
     border-radius: 16px;
     border: 3px solid #44D2FF;
     cursor: pointer;
@@ -103,7 +104,8 @@ body {
   background-size: cover;
   height: 300px;
   width: 100%;
-  &:hover{
+
+  &:hover {
     border-radius: 16px;
     border: 3px solid #44D2FF;
     cursor: pointer;
@@ -122,7 +124,8 @@ body {
   background-size: cover;
   height: 300px;
   width: 100%;
-  &:hover{
+
+  &:hover {
     border-radius: 16px;
     border: 3px solid #44D2FF;
     cursor: pointer;
@@ -148,11 +151,73 @@ body {
   display: flex;
   flex-direction: row;
   padding-top: 128px;
-  
-  
   padding-bottom: 128px;
 
+
   gap: 32px;
+}
+
+
+
+.game {
+  background: #000915;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 135px;
+}
+
+.game__season_box {
+  width: 584px;
+  padding-top: 282px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+
+.game__season_title {
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 59px;
+
+}
+
+.game__season_text {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 32px;
+  font-weight: 300;
+}
+
+.button__play {
+  background: #9C0332;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 234px;
+  height: 48px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  transition: all 0.3s;
+
+  &:hover {
+    background: #EB443F;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+}
+
+.game__picture {
+  margin-top:233px;
+  background: url(img/Picture1.svg);
+  background-repeat: no-repeat;
+  width: 485px;
+  height: 333px;
+
 }
 
 
@@ -160,5 +225,9 @@ body {
   padding-left: max(120px, calc(50% - 720px));
   padding-right: max(120px, calc(50% - 720px));
 }
+
+
+
+
 
 @import 'mobile';
