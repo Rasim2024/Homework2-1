@@ -13,7 +13,7 @@ for (let index = 1; index <=5 ; index++) {
 
 // Задиние 3
 
-for (let index = 7; index <=72 ; index++) {
+for (let index = 7; index <=22 ; index++) {
     console.log(index);
     
     
@@ -21,9 +21,9 @@ for (let index = 7; index <=72 ; index++) {
 // Задание 4
 
 const obj={
-    Коля: `200`,
-    Вася: `300` ,
-    Петя: `400`
+    Коля: 200,
+    Вася: 300 ,
+    Петя: 400,
 }
 
 for ( let employee in obj ) {
