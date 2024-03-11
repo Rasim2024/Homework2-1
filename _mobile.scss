@@ -42,9 +42,9 @@
     .game {
         background: #000915;
         display: flex;
-        
+        flex-wrap: wrap;
         gap: 32px;
-      }
+    }
 
     .game__season_box {
         display: flex;
