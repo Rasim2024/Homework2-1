@@ -31,21 +31,20 @@ console.log(evenOdd());
 
 // Задание 3.1
 
-function calc1() {
-let square1=Number(prompt(`Ведите число`))
+function calc1(square1) {
 console.log((square1 ** 2));
 
 }
-console.log(calc1());
+
 
 // Задание 3.2
 
-function calc2() {
-    let square2 = Number(prompt(`Ведите число что бы найти корень `))
+function calc2(square2) {
+    
     return Math.sqrt(square2);
 
 }
-console.log(calc2());
+
 
 // Задание 4
 
@@ -74,7 +73,7 @@ function action() {
     let numOne = prompt(`Ведите первое число`)
 let numTwo = prompt(`Ведите втрое число`)
 
-    if (isNaN(numOne)  || isNaN(numTwo) || numOne==null || numTwo==null ) {
+    if (isNaN(numOne)  || isNaN(numTwo) || numOne===null || numTwo===null ) {
         return `Одно или оба значения не являются числом`;
     } else {
         return numOne * numTwo;
@@ -87,11 +86,11 @@ console.log(action());
 
 
 function volume() {
-    let m = Number(prompt(`Ведите число для расчета`))
-    if (isNaN(m) || m==0 ) {
+    let v = prompt(`Ведите число для расчета`)
+    if (isNaN(v) || v===null ) {
         return `Переданный параметр не является числом`;
     } else {
-        return `${m},в кубе равняется, ${m**3}`;
+        return `${v},в кубе равняется, ${v**3}`;
     }
 }
 console.log(volume());
@@ -126,21 +125,21 @@ function getSeason() {
     let month = Number(prompt(`Ведите номер месяца`))
 
     if (month >= 3 && month <= 5) {
-        alert (`Весна`) 
+       return alert (`Весна`) 
 
     }
     if (month >= 6 && month <= 8) {
-        alert (`Лето`)
+       return alert (`Лето`)
     }
     if (month >= 9 && month <= 11) {
-        alert (`Осень`)
+       return alert (`Осень`)
     }
     if (month == 1 || month == 2 || month == 12) {
-       alert (`Зима` ); 
+       return alert (`Зима` ); 
     }
 
     else {
-        alert `Не правильный ввод `
+        alert (`Не правильный ввод `); 
     }
 
 }
