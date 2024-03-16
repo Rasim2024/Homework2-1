@@ -123,4 +123,4 @@ const  moreArr= generateArray(6, 10);
     return (currentSum + currentNumber)
   } )/moreArr.length);
 
-//   
+  
