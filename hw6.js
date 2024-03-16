@@ -107,6 +107,18 @@ const generateArray = (length, max) => (
       .map(() => Math.round(Math.random() * max))
   );
   const numbers = generateArray(10, 10);
+  const evenOnly = numbers.filter(function (n) {
+    const j = n % 2
   
+    return j === 0
+  })
 
   console.log(numbers);
+  console.log(evenOnly);
+
+//    Задание 15
+
+const  moreArr= generateArray(6, 10);
+  console.log(moreArr.reduce(function (currentSum, currentNumber) {
+    return (currentSum + currentNumber)
+  } )/moreArr.length);
