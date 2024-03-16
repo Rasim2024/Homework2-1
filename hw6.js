@@ -122,3 +122,5 @@ const  moreArr= generateArray(6, 10);
   console.log(moreArr.reduce(function (currentSum, currentNumber) {
     return (currentSum + currentNumber)
   } )/moreArr.length);
+
+//   
