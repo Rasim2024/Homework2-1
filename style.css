@@ -180,17 +180,61 @@ body {
   cursor: pointer;
 }
 
+.game__picture_season {
+  padding-top: 233px;
+}
+
 .game__picture {
-  margin-top: 233px;
   background: url(img/Picture1.svg);
   background-repeat: no-repeat;
   width: 485px;
   height: 333px;
 }
 
+.gameTwo {
+  background: #000915;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.game__remember_box {
+  padding-top: 282px;
+  width: 588px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.game__remember_title {
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 59px;
+}
+
+.game__picture_remember {
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+
+.gameTwo__picture {
+  background: url(img/undraw_gaming_re_cma2\ 1.svg);
+  background-repeat: no-repeat;
+  width: 481px;
+  height: 322px;
+}
+
 .center {
   padding-left: max(120px, 50% - 720px);
   padding-right: max(120px, 50% - 720px);
+}
+
+.game__remember_text {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 32px;
+  font-weight: 300;
 }
 
 @media (max-width: 767px) {
@@ -260,6 +304,43 @@ body {
     height: 236px;
     margin-top: 0;
     margin-bottom: 84px;
+  }
+  .gameTwo {
+    background: #000915;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .game__remember_box {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 51px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .game__remember_title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .game__remember_text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .gameTwo__picture {
+    display: flex;
+    flex-direction: column;
+    background: url(img/Picture1mini.svg);
+    background-repeat: no-repeat;
+    width: 344px;
+    height: 236px;
+    margin-top: 0;
+    margin-bottom: 84px;
+  }
+  .game__picture_remember {
+    padding-top: 64px;
+    padding-bottom: 90px;
   }
   .center {
     padding-left: max(16px, 50% - 171.5px);
