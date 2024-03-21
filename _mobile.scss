@@ -52,7 +52,7 @@
         gap: 32px;
         padding-top: 51px;
         width: 343px;
-        height: 217px;
+        
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -64,6 +64,7 @@
     }
 
     .game__season_title {
+        text-align: center;
         font-size: 32px;
         line-height: 39px
     }
@@ -97,6 +98,7 @@
         padding-bottom: 0;
     }
     .game__remember_title{
+        text-align: center;
         font-size: 30px;
         line-height: 39px
     }

@@ -6,6 +6,7 @@ console.log(z.toUpperCase());
 //  Задание 2
 
 function getSearch(arr, str) {
+    str=str.toLowerCase()
     return arr.filter(el => el.toLowerCase(str).startsWith(str));
 }
 
