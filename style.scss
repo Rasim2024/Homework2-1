@@ -162,9 +162,9 @@ body {
 .game {
   background: #000915;
   display: flex;
-  flex-wrap: wrap;
+  
   justify-content: space-between;
-  gap: 135px;
+  
 }
 
 .game__season_box {
@@ -217,7 +217,7 @@ body {
   background-repeat: no-repeat;
   width: 485px;
   height: 333px;
-
+  
 }
 
 
