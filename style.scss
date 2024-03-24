@@ -192,6 +192,7 @@ body {
   font-weight: 300;
 }
 
+
 .button__play {
   background: #9C0332;
   border: none;
@@ -210,22 +211,60 @@ body {
     cursor: pointer;
   }
 }
-
+.game__picture_season{
+  padding-top:233px;
+}
 .game__picture {
-  margin-top:233px;
+ 
   background: url(img/Picture1.svg);
   background-repeat: no-repeat;
   width: 485px;
   height: 333px;
   
 }
+.gameTwo{
+  background: #000915;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.game__remember_box{
+  padding-top: 282px;
+  width: 588px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.game__remember_title {
+  font-size: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 59px;
+}
+.game__picture_remember{
+  padding-top: 239px;
+  padding-bottom: 239px;
+}
+.gameTwo__picture{
+  
+  background: url(img/undraw_gaming_re_cma2\ 1.svg);
+  background-repeat: no-repeat;
+  width: 481px;
+  height: 322px;
+}
+
 
 
 .center {
   padding-left: max(120px, calc(50% - 720px));
   padding-right: max(120px, calc(50% - 720px));
 }
-
+.game__remember_text {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 32px;
+  font-weight: 300;
+}
 
 
 
