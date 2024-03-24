@@ -8,7 +8,7 @@ let firstIphone=2007
 alert (firstIphone)
 //Задание 3
 let author=`Brandan Eich`
-alert(`Brandan Eich`)
+alert(author)
 //Задание 4
 let x=10
 let y=2
@@ -22,7 +22,7 @@ alert(result)
 //Задание 6
 a=9
 let b=2
-alert(a/b)
+alert(a%b)
 //Задание 7
 let num=1;
 num+=5;
@@ -39,15 +39,15 @@ alert(age)
 //Задание 9.0
 const user={
     name: `Rasim`,
-    age: Number (30) ,
+    age: 30 ,
     isAdmin: true
 }
 //Задание 9.1
-user.CityOfResidence=`Moscow`
+user[`city of residence`]=`Moscow`
 //Задание 9.2
 user.age=39;
 //Задание 9.3
-delete user.CityOfResidence;
+delete user[`city of residence`];
 
 //Задание 9.4
 let info=prompt("Какую информацию хотите узнать о пользователе?");
